@@ -1,0 +1,6 @@
+{
+  "name": "NetGuard Enterprise Switch MCP",
+  "description": "Enterprise MCP Server Control Plane for Cisco Catalyst and Aruba Switches with Zero-Trust RBAC, Change Approval Workflows, and Immutable Auditing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

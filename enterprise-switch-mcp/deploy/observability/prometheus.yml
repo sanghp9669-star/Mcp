@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: "enterprise-switch-mcp"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["mcp-server-1:8080", "mcp-server-2:8080"]
